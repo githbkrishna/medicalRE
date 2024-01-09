@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    background-color: rgb(229, 231, 233);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgb(128, 123, 123);
+    position: fixed;
+    height: 50px;
+    /* margin-bottom: 20px; */
+}
+
+nav .logo{
+    margin-left: 20px;
+    color: blue;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav .menu{
+    display: none;
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+nav ul li a:hover{
+    color: rgb(98, 98, 235);
+}
+
+/* nav ends */
+
+.container1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+    flex-wrap: wrap;
+    flex: 1 1 300px;
+}
+
+.container1 .left , .container1 .right{
+    width: 40%;
+    height: 400px;
+    padding: 50px;
+}
+
+.container1 .left img{
+    width: 400px;
+    margin: 20px 0 0 0px;
+}
+
+.container1 .right{
+    padding: 100px 20px 0 20px;
+}
+
+.container1 p{
+    margin: 20px 0px 20px 0;
+}
+
+button{
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    color:rgb(21, 139, 141);
+    border-color:darkturquoise;
+    border-radius: 5px;
+}
+
+button span{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(98, 98, 235);
+}
+
+button:hover span{
+    /* transition: all 1s; */
+    transform: translateX(5px);
+    color: rgb(9, 134, 236);
+    background-color: white;
+    /* margin-left: 10px; */
+}
+
+/* first-container ends */
+
+.container2{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15%;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.container2 h2{
+    color: rgb(9, 134, 236);
+}
+
+.container2 h3{
+    padding: 20px;
+}
+
+.container2 p{
+    font-weight: lighter;
+}
+
+.container2 .box{
+    border: 2px solid rgb(98, 98, 235);
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgb(9, 134, 236);
+}
+
+/* container2 ends */
+
+.container3{
+    width: 100%;
+    height: 750px;
+    background-color: #ddd;
+}
+
+.container3 h2{
+    text-align: center;
+    margin: 20px 0 20px 0;
+    padding-top: 20px;
+}
+/* 
+.h2{
+    margin: 120px;
+} */
+
+span{
+    color: rgb(9, 134, 236);
+}
+
+.container3 h3, .container3 p{
+    margin: 10px 0 10px 0;
+}
+
+.container3 .box1{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 320px 320px;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.boxes{
+    border: 2px solid rgb(98, 98, 235);
+    padding: 20px;
+    /* box-shadow: 5px 5px 5px rgb(3, 102, 119); */
+    box-shadow: 3px 3px 3px rgb(9, 134, 236);
+    border-radius: 5px;
+}
+
+.boxes img{
+    width: 70%;
+    height: 100px;
+}
+
+.boxes button{
+    text-align: start;
+}
+
+.container8{
+    height: 430px;
+    background-color: #fff;
+}
+.container8 .box1{
+    grid-template-rows: 340px;
+}
+.container8 h2{
+    padding: 0;
+    background-color: #fff;
+}
+.container8 .boxes img{
+    width: 100%;
+    height: 110px;
+}
+
+.container8 .da{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+/* container3 & container8 ends */
+
+.container4{
+    width: 100%;
+    height: 400px;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container4 .left, .container4 .right{
+    width: 40%;
+    height: 300px;
+}
+
+.container4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.container4 .right{
+    padding: 20px;
+    line-height: 20px;
+}
+.container4 .right .h2 span{
+    font-size: 1.8vw;
+    line-height: 40px;
+}
+.container4 .right p{
+    padding: 20px 0 0 0;
+}
+
+.container4 .right button{
+    margin: 20px 0 0 0;
+}
+.x{
+    line-height: 20px;
+    display: inline-block;
+}
+
+/* container4 ends */
+
+.container5{
+    width: 100%;
+    height: 650px;
+    background-color: #ddd;
+}
+
+.container5 h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.gridbox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 250px 250px;
+    align-items: center;
+    justify-content: center;
+    /* gap: 20px; */
+    gap: 30px 20px;
+}
+
+.container5 .left{
+    /* width: 300px; */
+    border: 2px solid rgb(9, 134, 236);
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(9, 134, 236);
+}
+
+.container5 .left img{
+    width: 100%;
+    height: 100px;
+    border: 2px solid rgb(9, 134, 236);
+    border-radius: 5px;
+}
+
+.container5 h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container5 .left p{
+    color: rgb(9, 134, 236);
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.left .flex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.flex .one{
+    color: rgb(9, 134, 236);
+    border: 2px solid rgb(9, 134, 236);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px rgb(9, 134, 236);
+}
+
+.flex .one:hover{
+    color: white;
+    background-color: rgb(98, 98, 235);
+}
+
+/* container5 ends */
+
+.container6{
+    width: 100%;
+    height: 500px;
+}
+
+.container6 h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.two{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.two .left, .two .right{
+    width: 450px;
+    height: 100%;
+}
+
+.two .left img{
+    width: 100%;
+    height: 100%;
+}
+
+.two .right {
+    width: 400px;
+    height: 380px;
+    border: 2px solid rgb(9, 134, 236);
+    box-shadow: 2px 2px 2px rgb(9, 134, 236);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.right h3{
+    margin-top: 10px;
+}
+
+input{
+    width: 300px;
+    /* height: 100px; */
+    display: block;
+    margin: 20px 0 0 13%;
+    padding: 10px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    border-color: rgb(9, 134, 236);
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: rgb(9, 134, 236);
+}
+
+.two button{
+    margin-top: 20px;
+}
+
+/* container6 ends */
+
+.container7{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #ddd;
+    font-weight: lighter;
+}
+
+.container7 h2{
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.star i{
+    color: white;
+}
+
+.three{
+    width: 25%;
+    height: 400px;
+    font-size: 16px;
+    border: 2px solid rgb(9, 134, 236);
+    box-shadow: 2px 2px 2px rgb(9, 134, 236);
+    margin-top: 20px;
+}
+
+.three .a{
+    width: 100%;
+    height: 200px;
+    border-radius: 0 0 50% 50%;
+    background-color: blue;
+}
+
+.three .a .box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+.three img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 10px;
+}
+
+.b{
+    width: 100%;
+    padding: 20px;
+}
+
+.three p{
+    font-weight: lighter;
+    font-style: normal;
+    color: rgb(54, 48, 48);
+    font-size: 16px;
+}
+
+/* container7 ends */
+
+footer{
+    width: 100%;
+    height: 230px;
+    background-color: #ddd;
+}
+
+footer h2{
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer .four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer .four .last{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.last ul{
+    padding: 0;
+    margin: 0;
+}
+
+.last li{
+    list-style-type:none;
+    text-align: start;
+    line-height: 20px;
+}
+
+.last li i{
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.last li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.last li:hover a{
+    color:  rgb(9, 134, 236);
+    transform: translateX(5px);
+    translate: 10px;
+    /* margin-left: 10px; */
+    /* overflow: hidden; */
+}
+
+
+.end{
+    text-align: center;
+    width: 100%;
+    /* height: 40px; */
+    padding: 20px;
+    color: black;
+}

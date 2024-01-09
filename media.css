@@ -1,0 +1,308 @@
+/* @media (max-width:1200px) {
+  
+} */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+  .container1 {
+    justify-content: space-between;
+    font-size: 2vw;
+  }
+  .container1 .left img{
+    margin: 50px 0 0 0px;
+  }
+  .container1 .right {
+    padding: 100px 20px 0 0px;
+  }
+  .container2 {
+    width: 100%;
+    grid-template-columns: 13% 13% 13% 13%;
+  }
+  .container2 h3 {
+    text-align: center;
+    padding: 10px;
+  }
+  .container3 {
+    height: 1100px;
+  }
+  .container3 .box1 {
+    grid-template-columns: 40% 40%;
+  }
+  .container4 {
+    margin-top: 20px;
+    /* width: 100%; */
+    height: auto;
+  }
+  .container4 .left, .container4 .right {
+    width: 40%;
+    height: 400px;
+    font-size: 1.9vw;
+  }
+  .container4 .right p {
+    padding-top: 5px;
+  }
+  .container5 {
+    height: 870px;
+    margin-bottom: 20px;
+  }
+  .container5 .gridbox {
+    justify-content: space-center;
+    justify-content: center;
+    grid-template-columns: 32% 32% 32%;
+    gap: 0;
+    row-gap: 10px;
+    padding-left: 10px;
+  }
+  .container5 .left{
+    width: 230px;
+    height: 250px;
+    margin: 0;
+    padding: 10px;
+  }
+  .container6 {
+    height: 460px;
+    font-size: 1.6vw;
+  }
+  .container6 .left,
+  .container6 .right {
+    width: 40%;
+  }
+  .container6 .right input {
+    width: 29vw;
+  }
+  .container7{
+    height: 490px;
+  }
+  .container7 .three{
+    width: 30%;
+  }
+  .container7 h3, .container7 p{
+    font-size: 1.8vw;
+  }
+  .container8{
+    height: 800px;
+  }
+  .container8 h2{
+    padding-top: 0px;
+    margin-top: 10px;
+  }
+}
+
+
+  /* @media (max-width:660px) { */
+  @media (max-width:425px) {
+  html, body{
+    width: 100%;
+    /* overflow: hidden; */
+    font-size: 50%;
+  }
+  nav{
+    font-size: 2.4vw;
+    position: fixed;
+    height: 50px;
+  }
+  nav .navbar{
+    display: none;
+  }
+  nav .menu{
+    display: block;
+  }
+  .container1{
+    height: 450px;
+    padding-top: 50px;
+  }
+  .container1 .left , .container1 .right{
+    width: 100%;
+    height: 200px;
+    padding: 0;
+  }
+  .container1 .left img{
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    margin: 0px 0 0 0px;
+  }
+  .container1 .right{
+    padding: 20px;
+  }
+  .container1 .right h2{
+    font-size: 4.5vw;
+  }
+  .container1 p{
+    font-size: 3vw;
+    margin: 10px 0;
+  }
+  button{
+    font-size: 2vw;
+    padding: 5px;
+  }
+  .container2{
+    padding: 20px;
+    height: 240px;
+    font-size: 3vw;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 100px 100px;
+  }
+  .container3{
+    height: 830px;
+    margin: 0;
+  }
+  .container3 h2{
+    font-size: 4vw;
+    margin: 10px;
+    padding: 0;
+  }
+  .container3 .box1{
+    grid-template-rows: 240px 240px 240px;
+  }
+  .container3 .boxes img{
+    width: 100%;
+  }
+  .container4{
+    width: 100%;
+    margin: 0;
+    height: 450px;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .container4 .left , .container4 .right{
+    width: 100%;
+    height: 50%;
+  }
+  .container4 .right .h2 h2{
+    font-size: 3vw;
+  }  
+  .container4 .right .h2 span{
+    font-size: 2.8vw;
+  }
+  .container4 .right p{
+    font-size: 2.3vw;
+    padding: 0;
+  }  
+  .container4 .right button{
+    font-size: 2vw;
+  }
+  .container5{
+    width: 100%;
+    height: 1100px;
+    margin-bottom: 0;
+  }
+  .container5 .h2{
+    font-size: 4vw;
+    padding: 10px 0 30px 0;
+  }
+  .container5 .gridbox{
+    /* justify-content: space-evenly; */
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 210px 210px 210px 210px;
+    gap: 50px 10px;
+  }
+  .container5 .gridbox .left{
+    width: 100%;
+  }
+  .container5 .gridbox .left img{
+    height: 130px;
+  }
+  .container5 .gridbox .left h3{
+    font-size: 3vw;
+  }
+  .container5 .gridbox .left p{
+    font-size: 2.7vw;
+  }
+  .flex .one{
+    padding: 5px;
+    font-size: 3vw;
+  }
+  .container6{
+    height: 600px;
+    font-size: 3vw;
+  }
+  .container6 .two{
+    flex-direction: column;
+  }
+  .two .left, .two .right{
+    width: 100%;
+    height: 250px;
+    font-size: 2vw;
+  }
+  .two .left img{
+    width: 100%;
+    height: 250px;
+  }
+  .container6 .right input {
+    width: 65vw;
+    margin: 10px 0 0 13%;
+    padding: 5px;
+  }  
+  .two button{
+    margin-top: 10px;
+  }
+  .container7{
+    height: 730px;
+  }
+  .container7 .h2{
+    font-size: 4vw;
+  }
+  .container7 .container{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .container7 .container .three{
+    width: 47%;
+    height: 300px;
+  }
+  .container7 .container .three .a{
+    width: 100%;
+    height: 150px;
+  }
+  .three .a .box{
+    margin-left: 24%;
+    margin-bottom: 20px;
+  }
+  .three .a .star{
+    font-size: 2vw;
+  }
+  .three .b p{
+    font-size: 2.6vw;
+  }
+  .container8{
+    height: 650px;
+  }
+  .container8 .box1{
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+    grid-template-rows: 290px 290px;
+  }
+  .da1{
+    font-size: 2.5vw;
+  }
+  .container8 .boxes h3{
+    font-size: 3vw;
+    margin: 0px 0 10px 0;
+  }
+  .container8 .boxes p{
+    font-size: 2.5vw;
+    margin: 0px 0 10px 0;
+  }
+  .container8 button{
+    /* padding: 5px; */
+    font-size: 1.2vw;
+  }
+  footer{
+    height: 200px;
+    font-size: 3vw;
+    /* border: 2px solid red; */
+  }
+  footer .four .last li{
+    font-size: 2.9vw;
+  }
+  .end{
+    font-size: 3vw;
+  }
+}
+
+
+
+
