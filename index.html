@@ -23,7 +23,7 @@
         <li><a href="#blog">Blog</a></li>
       </ul>
       <h2 class="menu">=</h2>
-    </nav>zz
+    </nav>
 
     <div class="container1">
       <div class="left">
@@ -424,7 +424,18 @@
     </div>
 
     <script>
-      // let Nav = document.getElementById('nav')
+
+      window.addEventListener('scroll', function(){
+        var Nav = document.getElementById('nav')
+        var stickyPoint = 20
+        if(window.scrollY >= stickyPoint){
+          Nav.classList.add("sticky");
+        }
+        else{
+          Nav.classList.remove("sticky");
+        }
+
+      })
       // let anc = Nav.getElementsByTagName("a")
       // let head = document.getElementById("heading")
 
