@@ -54,6 +54,7 @@ nav ul li a:hover {
   font-size: 1.3rem;
   display: none;
   color: #0000ff;
+  cursor: pointer;
 }
 
 
